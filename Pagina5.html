@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table align="center" widht="50%">
+        <tr align="center" bgcolor="RosyBrown">
+            <td><h1>FORMULARIOS</h1></td>
+        </tr>
+        <tr align="center" bgcolor="SandyBrown">
+            <td>
+                <form>
+                <fieldset>
+                    <legend>Datos Personales</legend>
+                    <label>Condicion: </label><br>
+                    <select name="lista" id="lista">
+                        <option value="0">--NONE--</option>
+                        <option value="Señor">Profesor</option>
+                        <option value="Señora">Licenciado</option>
+                    </select><br>
+                    <label for="name">Nombre: </label>
+                    <input type="text" name="name" id="name"><br>
+                    <label for="last">Apellido: </label>
+                    <input type="text" name="last" id="last"><br>
+                    <label >Sexo: </label><br>
+                    <input type="radio" name="sexo" id="mujer" value="mujer"> 
+                    <label for="mujer">Mujer</label><br>
+                    <input type="radio" name="sexo" id="hombre" value="hombre"> 
+                    <label for="hombre">Hombre</label><br>
+                    <label for="emal">Email: </label>
+                    <input type="email" name="emal" id="emal"><br>
+                    <label>Adress: </label><br>
+                    <textarea name="adress" id="adress" cols="30" rows="5"></textarea><br>
+                    <input type="submit" name="subir" id="subir">
+                </fieldset>
+            </form>
+            </td>
+        </tr>
+        <tr align="center" bgcolor="BurlyWood">
+            <td>
+                <form>
+                    <fieldset>
+                        <legend>Datos de la Mascota</legend>
+                        <label for="name">Nombre:</label>
+                        <input type="text" name="name" id="name"><br>
+                        <label for="fecha">Fecha de Nacimiento:</label>
+                        <input type="date" name="fecha" id="fecha"><br>
+                        <label>Vacuna que tiene</label><br>
+                        <input type="checkbox" name="parvo" id="parvo">
+                        <label for="parvo">Parvovirus</label><br>
+                        <input type="checkbox" name="influ" id="influ">
+                        <label for="influ">Influenza</label><br>
+                        <input type="checkbox" name="rabia" id="rabia">
+                        <label for="rabia">Rabia</label><br>
+                        <label >Tamaño Aproximado</label><br>
+                        <label for="rango">Pequeño</label>
+                        <input type="range" max="100" min="0" steep="1" value="50" name="rango">
+                        <label for="rango">Grande</label><br>
+                        <label >Sexo: </label><br>
+                        <input type="radio" name="sexo" id="Hembra" value="Hembra"> 
+                        <label for="hembra">Hembra</label><br>
+                        <input type="radio" name="sexo" id="Macho" value="Hembra">
+                        <label for="Macho">Macho</label>
+                    </fieldset>
+                    <input type="submit" name="enviar" id="enviar">
+                    <input type="reset" name="resta" id="resta">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>    <a href="Pagina4.html"><h4>PAGINA ANTERIOR</h4></a></td>
+        </tr>
+    </table>
+</body>
+</html>
